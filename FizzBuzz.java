@@ -7,7 +7,7 @@ public class FizzBuzz {
             if(x == 42){
                 System.out.println("Answer to the Ultimate Question of Life, the Universe and Everything");
             }
-            if ((x % 3 ==0) && (x % 5 == 0)){
+            else if ((x % 3 ==0) && (x % 5 == 0)){
                 System.out.println("FizzBuzz");
 
 
